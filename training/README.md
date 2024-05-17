@@ -10,7 +10,7 @@ python train_detection.py --run_name name_your_model
 
 2. Evaluate the trained model with [eval_detection.ipynb](evaluate_detection.ipynb)
 
-- This notebook can be used to evaluate the model you trained. It reports the standard <a href="https://www.picsellia.com/post/coco-evaluation-metrics-explained"> COCO evaluation metrics </a> for object detection models. You can also play around with the IOU thresholds to get a desired precision and recall.
+- This notebook can be used to evaluate the model you trained. It reports the standard <a href="https://www.picsellia.com/post/coco-evaluation-metrics-explained"> COCO evaluation metrics </a> for object detection models. You can also play around with the IOU threshold to get a desired precision and recall.
 
 3. Visualize results with [visualize_detection.ipynb](visualize_detection.ipynb)
 

@@ -8,8 +8,8 @@ The code in this folder can be used to detect marching band members and save the
 
 2.  Use the code in the [frames_to_warped_frames.ipynb](frames_to_warped_frames.ipynb) notebook to get the area of interest for you. Skip this part if your input video is already pre-processed.
 
-- In our case, We cropped the frames to only keep the football field so that it will be easier for us to calculate the coordinates and to compare it with the ground truth drill videos. 
+- In our case, we warped the frames to focus solely on the football field, making it easier to calculate coordinates and compare them with the ground truth drill videos.
 
 3. Inference on the warped frames and save the box frames and the coordinates with [warped_frames_to_box_frames.ipynb](warped_frames_to_box_frames.ipynb).
 
-4. (Optional) Generate box videos using box frames with [box_frames_to_box_videos.ipynb](box_frames_to_box_videos.ipynb)
+4. (Optional) Generate box videos using box frames with [box_frames_to_box_videos.ipynb](box_frames_to_box_videos.ipynb) for sanity check and demo.
